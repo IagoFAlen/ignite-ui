@@ -1,0 +1,17 @@
+{
+    "name": "@ignite-ui",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "packageManager": "npm@10.7.0",
+    "scripts": {
+        "dev": "turbo run dev --parallel",
+        "build": "turbo run build"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-react": "^4.3.1",
+        "turbo": "^2.1.1",
+        "vite": "^5.4.2"
+    }
+}
